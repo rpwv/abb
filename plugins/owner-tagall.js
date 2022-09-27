@@ -1,6 +1,6 @@
 let handler = async (m, { conn, text, participants, isAdmin, isOwner }) => {
     let users = participants.map(u => u.id).filter(v => v !== conn.user.jid)
-    m.reply(`${text ? `${text}\n` : ''}┌─「 Tag All 」\n` + users.map(v => '│◦❒ @' + v.replace(/@.+/, '')).join`\n` + '\n└────', null, {
+    m.reply(`${text ? `${text}\n` : ''}┌─「 𝐓𝐀𝐆 𝐀𝐋𝐋 」\n` + users.map(v => '│➪ @' + v.replace(/@.+/, '')).join`\n` + '\n└────', null, {
         mentions: users
     })
 }
