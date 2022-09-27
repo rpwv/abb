@@ -27,8 +27,8 @@ handler.all = async function (m) {
         
 		// Ini untuk command crator/owner
 		global.kontak2 = [
-         [owner[0], await conn.getName(owner[0] + '@s.whatsapp.net'), ' ', 'yanxiao021@gmail.com', true],
-         [owner[1], await conn.getName(owner[1] + '@s.whatsapp.net'), ' ', 'yanxiao021@gmail.com', true], // Kalo mau di tambah tinggal copy 1baris ini di tempel di bawahnya trs di edit dikit!
+         [owner[0], await conn.getName(owner[0] + '@s.whatsapp.net'), ' ', 'zenitystar@gmail.com', true],
+         [owner[1], await conn.getName(owner[1] + '@s.whatsapp.net'), ' ', 'zenitystar@gmail.com', true], // Kalo mau di tambah tinggal copy 1baris ini di tempel di bawahnya trs di edit dikit!
         ]
         
 		// ucapan ini mah
@@ -46,10 +46,10 @@ handler.all = async function (m) {
 					title: global.ucapan,
 					body: wm,
 					mediaUrl: sgc,
-					description: 'Oscar-MultiDevice',
+					description: 'LuffyBot',
 					previewType: "PHOTO",
 					thumbnail: await (await fetch(thumb)).buffer(),
-					sourceUrl: "https://youtube.com/channel/UCW7iXlE7TgvJMIXQck4NYBQ",					
+					sourceUrl: "https://nekopoi.care",					
 				}
 			}
 		}
@@ -94,8 +94,8 @@ global.fakefb = {
          contextInfo: { externalAdReply: { showAdAttribution: true,
             mediaUrl: "https://Facebook.com/jarot",
             mediaType: "VIDEO",
-            description: "https://www.Facebook.com/jarot", 
-            title: 'Oscar-MultiDevice',
+            description: "https://nekopoi.care", 
+            title: 'LuffyBot MD',
             body: wm,
             thumbnailUrl: pp,
             sourceUrl: sgc
