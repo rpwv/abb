@@ -56,21 +56,22 @@ https://github.com/FahriAdison
 *▸ - - - —「 Penulis Ulang 」— - - - ◂*
 *❉ Oscar-Md*
 https://github.com/Alpiii22 
-*▸ - - - —「 Thanks For Suhu 」— - - - ◂*
+*▸ - - - —「 Special 」— - - - ◂*
 *❉ Kannachan:*
 *❉ The.sadboy.01
 *❉ Papah-Chan:*
 *❉ Johannes:*
 *❉ Jarot:*
 *❉ Krisna:*
-*❉ Oscar-Md:*
-
+*❉ Rull:*
+*❉ Gitata:*
+*❉ Amel Chan:*
 `
 conn.sendButtonDoc(m.chat, tqto, wm,'Thanks','Bilek', m, { contextInfo: { externalAdReply: { showAdAttribution: true,
-    mediaUrl: "https://Instagram.com/Jarotr_",
+    mediaUrl: "https://ɴᴇᴋᴏᴘᴏɪ.ᴄᴀʀᴇ",
     mediaType: "VIDEO",
-    description: "https://Instagram.com/Jarotr_", 
-    title: 'Oscar-MultiDevice',
+    description: "https://ɴᴇᴋᴏᴘᴏɪ.ᴄᴀʀᴇ", 
+    title: '𝚉𝚎𝚗𝚗𝙱𝚘𝚝',
     body: wm,
     thumbnail: thumb,
     sourceUrl: sgc
