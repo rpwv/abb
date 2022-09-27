@@ -4,7 +4,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
     let res = await mediafiredl(args[0])
     let { url, url2, filename, ext, aploud, filesize, filesizeH } = res
     let caption = `
-*💌 Name:* ${filename}
+*❔ Name:* ${filename}
 *📊 Size:* ${filesizeH}
 *🗂️ Extension:* ${ext}
 *📨 Uploaded:* ${aploud}
@@ -15,5 +15,6 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
 handler.help = ['mediafire'].map(v => v + ' <url>')
 handler.tags = ['downloader']
 handler.command = /^(mediafire|mf)$/i
-
+handler.private = true
+handler.limit = true
 export default handler
