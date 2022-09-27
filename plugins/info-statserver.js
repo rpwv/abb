@@ -17,5 +17,5 @@ let handler = async (m) => {
 handler.help = ['statserver']
 handler.tags = ['info']
 handler.command = /^(statserver)$/i
-
+handler.private = true
 export default handler
