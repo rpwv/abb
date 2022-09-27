@@ -9,13 +9,13 @@ let handler = async function (m, { text, usedPrefix, command }) {
 	let namae = conn.getName(m.sender)
 	const sections = [
 	{
-	title: "Select Your Age Here !",
+	title: "Pilih umur kamu disini !",
 	rows: [
 	    {title: "Random Years", rowId: '.daftar ' + namae + '.' + pickRandom(['30','29','28','27','26','25','24','23','22','21','20','19','18','17','16','15','14','13','12','11','10','9'])}
 	]
     },
     {
-	title: "O L D",
+	title: "Old",
 	rows: [
 	    {title: "30 Years", rowId: '.daftar ' + namae + '.30 '},
 	    {title: "29 Years", rowId: '.daftar ' + namae + '.29 '},
@@ -30,7 +30,7 @@ let handler = async function (m, { text, usedPrefix, command }) {
 	]
     },
     {
-	title: "Y O U N G",
+	title: "Muda",
 	rows: [
 	    {title: "20 Years", rowId: '.daftar ' + namae + '.20 '},
 	    {title: "19 Years", rowId: '.daftar ' + namae + '.19 '},
@@ -52,7 +52,7 @@ const listMessage = {
   text: `│›Please select your age at the bottom button...`,
   footer: `┗ *ʏᴏᴜʀ ɴᴀᴍᴇ:* ${conn.getName(m.sender)}\n<❔> Want a costume name? type *${usedPrefix + command} yourname.age*`,
   title: "▢- - - - - ʀᴇɢɪsᴛᴇʀ - - - - -",
-  buttonText: "Click Here !",
+  buttonText: "Klik Disini !",
   sections
 }
 
@@ -63,7 +63,7 @@ const listMessage = {
   if (!name) throw 'Nama tidak boleh kosong (Alphanumeric)'
   if (!age) throw 'Umur tidak boleh kosong (Angka)'
   age = parseInt(age)
-  if (age > 30) throw 'WOI TUA (。-`ω´-)'
+  if (age > 30) throw 'Terlalu Tua (⁠ㆁ⁠ω⁠ㆁ⁠)'
   if (age < 9) throw 'Halah dasar bocil'
   user.name = name.trim()
   user.age = age
@@ -73,7 +73,7 @@ const listMessage = {
   let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : m.fromMe ? conn.user.jid : m.sender
   let cap = `
 ┏─• *ᴜsᴇʀs*
-│▸ *sᴛᴀᴛᴜs:* ☑️ sᴜᴄᴄᴇssғᴜʟ
+│▸ *sᴛᴀᴛᴜs:* ✅ sᴜᴄᴄᴇssғᴜʟ
 │▸ *ɴᴀᴍᴇ:* ${name}
 │▸ *ᴀɢᴇ:* ${age} ʏᴇᴀʀs
 │▸ *sɴ:* ${sn}
@@ -96,7 +96,7 @@ const listMessage = {
 'previewType':'pdf',
 'title':global.titlebot,
 'body':global.titlebot,
-'thumbnail':await(await fetch('https://telegra.ph/file/4a7e5f18efaadec18a7a0.jpg')).buffer(),
+'thumbnail':await(await fetch('https://telegra.ph/file/4839bc304650057035e6e.jpg')).buffer(),
 'sourceUrl':sgc}},
 'caption':cap,
 'footer':botdate,
