@@ -19,7 +19,7 @@ function kyun(seconds){
 					const runtime = process.uptime()
 		            const teks = `${kyun(runtime)}`
 					const itsme = `0@s.whatsapp.net`
-					const split = `uwu >//<`
+					const split = `Dimas Anjay Mabar`
 					const rtimebro = {
 					contextInfo: {
 					participant: itsme,
@@ -36,7 +36,7 @@ itemCount: -10062007, status: 500,
 surface: 999,
 message: teks,
 description: '^^',
-orderTitle: 'Haii Kak',
+orderTitle: 'Haii Kak :)',
 token: '9',
 curreyCode: 'IDR',
 totalCurrencyCode: '>〰<',
