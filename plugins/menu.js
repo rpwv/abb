@@ -11,9 +11,9 @@ import fetch from 'node-fetch'
 
 const defaultMenu = {
   before: `
-*┄┄┄┅┅❑ DASHBOARD ❑┅┅┄┄┄*
+*┄┄┄┅┅❑ 𝑳𝒖𝒇𝒇𝒚 𝑩𝒐𝒕 ❑┅┅┄┄┄*
 ┏─────────────────⬣
-┆ 𝑯𝒂𝒊, ${ucapan()}  %name!👋
+┆ 𝑯𝒂𝒊 𝒌𝒂𝒌, ${ucapan()}  %name!👋
 ┗┬──────────────┈ ⳹
 ┏┆⬡ *Status:* %prems
 ┆┆⬡ *Limit:* %limit
@@ -43,8 +43,8 @@ const defaultMenu = {
 ┗┬──────────────┈ ⳹
 ┏┤ *𝐈𝐧𝐟𝐨 𝐂𝐦𝐝*
 ┆┗──────────────┈ ⳹
-┆┆⬡ *🅟︎* = Premium
-┆┆⬡ *🅛︎* = Limit
+┆┆⬡ *🅟︎* = 𝑃𝑟𝑒𝑚𝑖𝑢𝑚
+┆┆⬡ *🅛︎* = 𝑀𝑒𝑛𝑔𝑢𝑛𝑎𝑘𝑎𝑛 𝐿𝑖𝑚𝑖𝑡
 ┗─────────────────⬣
 
 %readmore
@@ -222,24 +222,19 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
     let mpt = clockString(_mpt)
       const sections = [
    {
-	title: `┄┄┄┄┅┅| MAIN |┅┅┄┄┄┄`,
+	title: `┄┄┄┄┅┅| 𝙼𝙰𝙸𝙽 |┅┅┄┄┄┄`,
 	rows: [
-	    {title: `📛 ${pmenus} INFO BOT`, rowId: ".info", description: "Menampilkan kecepatan respon "},
-	    {title: `💌 ${pmenus} OWNER`, rowId: ".owner", description: "Menampilkan List owner "},
-	    {title: `📔 ${pmenus} SCRIPT`, rowId: ".sc", description: `Source Code ${namebot}`},
-	{title: `🗣️ ${pmenus} REQUEST FITUR`, rowId: ".request", description: "Request fitur "},
-	{title: `👥 ${pmenus} Thanks To`, rowId: ".tqto", description: "terimakasih buat yang telah suport bot ini"},
+	    {title: `📛 ${pmenus} 𝙸𝙽𝙵𝙾 𝙱𝙾𝚃`, rowId: ".info", description: "Menampilkan kecepatan respon "},
+	    {title: `💌 ${pmenus} 𝙲𝚁𝙴𝙰𝚃𝙾𝚁`, rowId: ".owner", description: "Menampilkan List owner "},
 	]
     },{
-	title: `┄┄┄┄┅┅| SUPPORT |┅┅┄┄┄┄`,
+	title: `┄┄┄┄┅┅| 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 |┅┅┄┄┄┄`,
 	rows: [
-	    {title: `🔖 ${pmenus} Sewa Bot`, rowId: ".sewa", description: "Menampilkan list harga sewa BOT"},
-	    {title: `🌟 ${pmenus} Upgrade Premium`, rowId: ".premium", description: "Menampilkan list harga upgrade premium"},
-	    {title: `💰 ${pmenus} Donasi`, rowId: ".donasi", description: 'Support BOT agar on 1 Minggu non stop'},
-	{title: `✨ ${pmenus} Rate`, rowId: ".rate", description: 'Support BOT agar Semangat update'},
+	    {title: `💰 ${pmenus} 𝙳𝙾𝙽𝙰𝚂𝙸`, rowId: ".donasi", description: 'Support BOT agar on 1 Minggu non stop'},
+	{title: `✨ ${pmenus} 𝚁𝙰𝚃𝙴`, rowId: ".rate", description: 'Support BOT agar Semangat update'},
 	]
 	},{
-	title: `┄┄┄┄┅┅| MENU |┅┅┄┄┄┄`,
+	title: `┄┄┄┄┅┅| 𝙼𝙴𝙽𝚄 |┅┅┄┄┄┄`,
 	rows: [
 	    {title: `💬 ${pmenus} All`, rowId: ".? all", description: "Menampilkan Semua command BOT"},
 	    {title: `🌱 ${pmenus} Rpg`, rowId: ".? rpg", description: "Game Epic Rpg!"},
@@ -271,7 +266,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
 ]
 
 let usrs = db.data.users[m.sender]
-let tek = `       *┄┄┄┅┅❑ DASHBOARD ❑┅┅┄┄┄*
+let tek = `       *┄┄┄┅┅❑ 𝑳𝒖𝒇𝒇𝒚 𝑩𝒐𝒕 ❑┅┅┄┄┄*
 
    ┏─────────────────⬣
 ┏┤ *𝐈𝐧𝐟𝐨 𝐂𝐦𝐝*
@@ -305,7 +300,7 @@ const listMessage = {
   footer: wm2,
   mentions: await conn.parseMention(tek),
   title: ``,
-  buttonText: `CLICK HERE☕︎`,
+  buttonText: `𝒦𝓁𝒾𝓀 𝒟𝒾𝓈𝒾𝓃𝒾`,
   sections
 }
   if (teks == '404') {
@@ -513,31 +508,31 @@ const listMessage = {
             templateButtons: [
                 {
                     urlButton: {
-                        displayText: 'OFFICIAL GROUP',
+                        displayText: '𝑮𝒄 𝑶𝒇𝒇𝒊𝒄𝒂𝒍',
                         url: sgc
                     }
                 },
                 {
                     urlButton: {
-                        displayText: 'INSTAGRAM',
+                        displayText: '𝑰𝒏𝒔𝒕𝒂𝒈𝒓𝒂𝒎',
                         url: stg
                     }
                 },
                 {
                     quickReplyButton: {
-                        displayText: 'Owner',
+                        displayText: '𝑪𝒓𝒆𝒂𝒕𝒐𝒓',
                         id: '.owner'
                     }
                 },
                 {
                     quickReplyButton: {
-                        displayText: 'Speed',
+                        displayText: '𝑷𝒊𝒏𝒈 𝑩𝒐𝒕',
                         id: '.ping'
                     }
                 },
                 {
                     quickReplyButton: {
-                        displayText: 'Donasi',
+                        displayText: '𝑫𝒐𝒏𝒂𝒔𝒊',
                         id: '.donasi'
                     }
                 },
@@ -584,7 +579,7 @@ function clockStringP(ms) {
   let h = isNaN(ms) ? '--' : Math.floor(ms / 3600000) % 24
   let m = isNaN(ms) ? '--' : Math.floor(ms / 60000) % 60
   let s = isNaN(ms) ? '--' : Math.floor(ms / 1000) % 60
-  return [ye, ' *Years 🗓️*\n',  mo, ' *Month 🌙*\n', d, ' *Days ☀️*\n', h, ' *Hours 🕐*\n', m, ' *Minute ⏰*\n', s, ' *Second ⏱️*'].map(v => v.toString().padStart(2, 0)).join('')
+  return [ye, ' *Tahun 🗓️*\n',  mo, ' *Bulan 🌙*\n', d, ' *Hari ☀️*\n', h, ' *Jam 🕐*\n', m, ' *Menit ⏰*\n', s, ' *Detik ⏱️*'].map(v => v.toString().padStart(2, 0)).join('')
 }
 function ucapan() {
   const time = moment.tz('Asia/Jakarta').format('HH')
