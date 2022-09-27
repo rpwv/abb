@@ -47,13 +47,13 @@ let wibh = moment.tz('Asia/Jakarta').format('HH')
 /*============== SOCIAL ==============*/
 
 // kalo ga punya ketik "-" atau biarin aja biar ada creditsnya :v
-global.sig = 'https://instagram.com/Jarotr_' //Link Instagrammu
-global.sgh = 'https://github.com/Alpiii22' //Link Githubmu
-global.sgc = 'https://chat.whatsapp.com/GPMdyM0uDMP789G3IGMHda'
+global.sig = 'https://instagram.com' //Link Instagrammu
+global.sgh = 'https://github.com' //Link Githubmu
+global.sgc = 'https://chat.whatsapp.com'
 global.sdc = '_'
-global.stg = 'https://instagram.com/Jarotr_'
-global.syt = 'https://youtube.com/channel/UCW7iXlE7TgvJMIXQck4NYBQ' //Isi Pake Link Discordmu Kalo Gada Biarin aja
-global.snh = 'https://nhentai.net/g/HaramTod🗿' //Hmmm, Ini boleh kalian isi terserah :v
+global.stg = 'https://instagram.com'
+global.syt = 'https://youtube.com' //Isi Pake Link Discordmu Kalo Gada Biarin aja
+global.snh = 'https://nhentai.net/g/HaramKak' //Hmmm, Ini boleh kalian isi terserah :v
 
 /*============== PAYMENT ==============*/
 global.pdana = '085850539404' //Nomor Danamu
@@ -69,7 +69,7 @@ global.nameown = 'Oscar Offc'  // Nama Owner
 
 /*============== STAFF ==============*/
 global.owner = [
-  ['6285850539404', '❦ Oscar 🎐', true] //Ganti jd nomormu sama Namamu
+  ['6285850539404', ' 𝑹𝒖𝒍𝒍 🎐', true] //Ganti jd nomormu sama Namamu
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 global.mods = [] // Want some help?
@@ -101,12 +101,12 @@ global.APIKeys = { // APIKey Here
 // Kata APIKEY itu isi dengan apikey lu sendiri, dengan beli ke website itu
 
 /*============== WATERMARK ==============*/
-global.wm = '                「 OSCAR-MULTIDEVICE 汉  」' //Main Watermark
-global.wm2 = '꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘Oscar-Md˘ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷'
-global.wm3 = '⫹⫺  OSCAR-MD'
+global.wm = '                「 𝑳𝒖𝒇𝒇𝒚 𝑩𝒐𝒕 𝑾𝒉𝒂𝒕𝒔𝒂𝒑𝒑 汉  」' //Main Watermark
+global.wm2 = '꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘𝐿𝑢𝑓𝑓𝑦 𝐵𝑜𝑡 𝑊ℎ𝑎𝑡𝑠𝑎𝑝𝑝˘ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷'
+global.wm3 = '⫹⫺  𝑳𝒖𝒇𝒇𝒚𝑩𝒐𝒕 𝑾𝒉𝒂𝒕𝒔𝒂𝒑𝒑'
 global.botdate = `⫹⫺ 𝗛𝗮𝗿𝗶: ${week} ${date}`
 global.bottime = `𝗪𝗮𝗸𝘁𝘂 : ${wktuwib}`
-global.titlebot = '🎋 ┊ 𝗥𝗣𝗚 ʙᴏᴛ ᴡʜᴀᴛsᴀᴘᴘ'
+global.titlebot = '🎋 ┊ 𝑳𝒖𝒇𝒇𝒚 𝑩𝒐𝒕 𝑾𝒉𝒂𝒕𝒔𝒂𝒑𝒑'
 global.author = global.wm
 global.logo = 'https://ibb.co/17RY7x9'
 
@@ -370,11 +370,11 @@ global.hsquere = ['⛶','❏','⫹⫺']
 
 /*============== STICKER WM ==============*/
 global.stickpack = '.'
-global.stickauth = `☂︎\nO\nS\nC\nR\nO\nF\C-\n𝗕\n𝗢\n𝗧\n✦\n\n⫹⫺ Whatsapp BOT\nwa.me/${global.nomorbot}`
-global.packname = 'Cʀᴇᴀᴛᴇᴅ Bʏ'
-global.packname2 = 'ᴄʀᴇᴀᴛᴇᴅ ʙʏ OSCAR'
+global.stickauth = `☂︎\n𝐿\n𝑢\n𝑓\n𝑓\n𝑦-\n𝗕\n𝗢\n𝗧\n✦\n\n⫹⫺ 𝑾𝒉𝒂𝒕𝒔𝒂𝒑𝒑 𝑩𝒐𝒕\nwa.me/${global.nomorbot}`
+global.packname = '𝒁𝒆𝒏𝒏𝑩𝒐𝒕 𝑩𝒚'
+global.packname2 = '𝑹𝒖𝒍𝒍'
 
-global.multiplier = 38 // The higher, The harder levelup
+global.multiplier = 100 // The higher, The harder levelup
 
 /*============== EMOJI ==============*/
 global.rpg = {
